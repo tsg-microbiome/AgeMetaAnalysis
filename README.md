@@ -10,7 +10,7 @@ The repository contains the codes and the initial starting data corresponding to
 
 The different workspaces added here contain the starting data for the seven data repositories.
 The details of the different workspaces are:
-a. EM_Pathabundance.RData
+#a. EM_Pathabundance.RData:
 The workspace contains the relative abundances of the different MetaCyc annotation based pathways for the different samples belonging to the ELDERMET sub-cohort of the Irish Shotgun Dataset data repository.
 
 b. ExM_Pathabundance.RData

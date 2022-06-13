@@ -10,25 +10,16 @@ The repository contains the codes and the initial starting data corresponding to
 
 The different workspaces added here contain the starting data for the seven data repositories.
 The details of the different workspaces are:
-a. EM_Pathabundance.RData
 
-The workspace contains the relative abundances of the different MetaCyc annotation based pathways for the different samples belonging to the ELDERMET sub-cohort of the Irish Shotgun Dataset data repository.
+a. EM_Pathabundance.RData: The workspace contains the relative abundances of the different MetaCyc annotation based pathways for the different samples belonging to the ELDERMET sub-cohort of the Irish Shotgun Dataset data repository.
 
-b. ExM_Pathabundance.RData
+b. ExM_Pathabundance.RData: The workspace contains the relative abundances of the different MetaCyc annotation based pathways for the different samples belonging to the ExerciseMET sub-cohort of the Irish Shotgun Dataset data repository.
 
-The workspace contains the relative abundances of the different MetaCyc annotation based pathways for the different samples belonging to the ExerciseMET sub-cohort of the Irish Shotgun Dataset data repository.
+c. IBS4DPathabundance.RData: The workspace contains the relative abundances of the different MetaCyc annotation based pathways for the different samples belonging to the Jeffery et al IBS plus Control sub-cohort of the Irish Shotgun Dataset data repository.
 
-c. IBS4DPathabundance.RData
+d. IBS4DPathAbundanceAnalysis.RData: This workspace contains the unprocessed data corresponding to the previous workspace described here in.
 
-The workspace contains the relative abundances of the different MetaCyc annotation based pathways for the different samples belonging to the Jeffery et al IBS plus Control sub-cohort of the Irish Shotgun Dataset data repository.
-
-d. IBS4DPathAbundanceAnalysis.RData
-
-This workspace contains the unprocessed data corresponding to the previous workspace described here in.
-
-e. ISC_Metadata.RData
-
-The workspace contains the select descriptors (age, study condition of the subject, study name) of all the 464 samples collated as part of the Irish Shotgun Cohort data repository.
+e. ISC_Metadata.RData: The workspace contains the select descriptors (age, study condition of the subject, study name) of all the 464 samples collated as part of the Irish Shotgun Cohort data repository.
 
 f. isc_age_analysis.RData
 

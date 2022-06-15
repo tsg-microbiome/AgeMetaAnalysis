@@ -1,3 +1,16 @@
+# The sub-pipeline works on the disease information corresponding to the subjects in the Irish Shotgun Cohorts (ISC) data repository and performs the following tasks:
+# Computes the number of patient gut microbiomes, the maximum and minimum age of the subjects corresponding to IBS (the only strict disease profiled in this cohort)
+# Computes the association of the relative abundances of the different Highly Detected Species and the different diseases
+# Subsequently specifically focusses on the disease associations of the Multiple Disease Enriched and Multiple Disease Depleted (previously identified
+# in Ghosh et al eLife, 2020)
+
+# The sub-pipeline utilizes the workspaces isc_age_analysis.RData already provided in this github and isc_stage1_results.RData which is generated during the execution
+# of run_isc_analysis_stage1b.R code (which in turn is executed after the run_isc_stage1a.R code) and the isc_stage2a_results.RData generated during the execution of 
+# run_isc_analysis_stage2a_1.R
+# The workspace isc_analysis_2021_Revision.RData is a running workspace that is iteratively loaded and saved during the running of each of the previous 
+# He et al analysis code (run_isc_analysis_stage1a.R followed by run_isc_analysis_stage1b.R followed by run_isc_stage2a_1.R followed by 
+# The detailed order of the running of each individual sub-pipeline is provided in the Readme file in the github corresponding to this study.
+
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\ISC\\isc_age_analysis.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\isc_stage1_results.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\isc_stage2a_results.RData")

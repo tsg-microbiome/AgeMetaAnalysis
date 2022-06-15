@@ -1,3 +1,7 @@
+# The sub-pipeline scans/inputs the species, genus and metadata tables for the Irish Shotgun Cohorts (ISC) data repository.
+# Computes Shannon Diversity and the four different taxonomic uniqueness at the Species and Genus levels across all gut microbiomes
+# The output is a single data frame with the select metadata and the diversity and uniqueness measures for all gut microbiomes
+
 rm(list=ls())
 
 library(vegan)

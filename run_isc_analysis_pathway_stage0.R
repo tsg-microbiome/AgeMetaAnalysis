@@ -1,6 +1,11 @@
 # The sub-pipeline collates the Metacyc-annotated pathway and metadata tables for the Irish Shotgun Cohorts (ISC) data repository.
 # Computes Shannon Diversity and the four different taxonomic uniqueness at the Pathway levels across all gut microbiomes
 # The output is a single data frame with the select metadata and the diversity and uniqueness measures for all gut microbiomes
+# It subsequently performs the following functions:
+# Associations between Shannon Diversity and the four different measures of Uniqueness at the Pathway level.
+# Associations between pathway-level gut microbiome beta-diversity (computed using the four different distance measures; the same ones corresponding to the four measures of uniqueness) and age.
+# Associations between the different measures of uniqueness (four measures of uniqueness at the pathway level) and Shannon Diversity with age.
+
 
 library(vegan)
 library(ade4)

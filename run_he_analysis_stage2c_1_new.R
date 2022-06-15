@@ -1,3 +1,14 @@
+# The sub-pipeline works on the He et al data repository
+# The objective of the sub-pipeline is to perform an integrated association analysis of microbiome features with the different microbiome features with the different 
+# diseases in the He et al dataset
+# The features are the 112 Highly Detected Species (across the seven data repositories) (listed in Figure 2) and scanned here in from the workspace 
+# taxa_groupings_new.RData; the four microbiome uniqueness measures, shannon diversity, the range scaled abundances of the Kendall-Positive (Disease-Enriched) G2, 
+# Kendall-Negative (Health-Enriched) G1, Kendall-Not-Associated species groups; the Multiple-Disease-Enriched and Multiple-Disease-Depleted taxa identified in Ghosh
+# et al eLife 2020.
+# The disease associations are computed separately for the gut microbiomes from elderly (age >= 60y) and young (age < 60y) subjects.
+# The outputs of this sub-pipeline when integrated with those from the other data repositories provide the ranked order of microbiome features associated with
+# the unhealthy phenotype in the elderly (Figure 5) and the young (Supplementary Figure S12).
+
 print("Loading Libraries")
 library(compositions)
 library(igraph)

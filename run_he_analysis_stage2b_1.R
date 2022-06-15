@@ -8,7 +8,7 @@
 # of run_he_analysis_stage1b.R code (which in turn is executed after the run_he_stage1a.R code) and the he_stage2a_results.RData generated during the execution of 
 # run_he_analysis_stage2a_1.R
 # The workspace he_Analysis_2021_Revision.RData is a running workspace that is iteratively loaded and saved during the running of each of the previous 
-# He et al analysis code (run_he_et_al_analysis_stage1a.R followed by run_he_et_al_analysis_stage1b.R followed by run_he_et_al_stage2a_1.R followed by 
+# He et al analysis code (run_he_analysis_stage1a.R followed by run_he_analysis_stage1b.R followed by run_he_stage2a_1.R followed by 
 # The detailed order of the running of each individual sub-pipeline is provided in the Readme file in the github corresponding to this study.
 
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\He\\he_age_analysis.RData")

@@ -41,5 +41,6 @@ n. odamaki_age_analysis.RData: The workspace contains three data frames that act
 
 o. logmpie_age_analysis.RData: The workspace contains three data frames that act as the starting data for all taxonomy linked analyses corresponding to the LogMPie Dataset (in the current study). The logmpie_select_age_final_genus contains the genus-level profiles; logmpie_select_age_final_species contains the species-level profiles and; logmpie_select_age_final_metadata contains all the relevant metadata.
 
-
+Each code is annotated at the beginning. For each data repository, the running workspace (workspace that is loaded at the beginning of the execution of each sub-pipeline and updated and saved once the sub-pipeline completes execution) and the order of execution of the individual codes along with the outputs of each sub-pipeline is listed below:
+1. American Gut: The running workspace is 
 Please contact tarini.ghosh@ucc.ie for details.

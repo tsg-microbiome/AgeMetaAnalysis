@@ -3,6 +3,11 @@
 # Identifies a set of Highly Detected Species within this dataset.
 # Computes the association between the clr transformed abundances of this set of Highly Detected Species 
 # and the different microbiome summary statistic measures (four measures of uniqueness along with Shannon Diversity) using Robust Linear Regression models
+
+# The sub-pipeline requires the workspace he_stage1_results.RData which is the output of the previous two sub-pipelines run_he_analysis_stage1a.R, followed by
+# run_he_analysis_stage1b.R, along with the he_Analysis_2021_Revision.RData which is the running workspace of the he et al dataset analysis (after the execution
+# of run_he_analysis_stage1a.R and run_he_analysis_stage1b.R)
+
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\He\\he_age_analysis.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\he_stage1_results.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\He\\he_Analysis_2021_Revision.RData")

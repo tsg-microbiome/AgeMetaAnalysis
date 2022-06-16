@@ -1,4 +1,4 @@
-# The sub-pipeline works on the curatedMetagenomicData3 repository and performs the following tasks:
+# The sub-pipeline works on the American Gut repository and performs the following tasks:
 # Computes the sample-to-sample and taxa-to-taxa correlations between the clr-transformed abundances and the relative abundances of the different taxa at the species and genus level for the gut microbiomes of this dataset
 # Identifies a set of Highly Detected Species within this dataset.
 # Computes the association between the clr transformed abundances of this set of Highly Detected Species 

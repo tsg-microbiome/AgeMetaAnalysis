@@ -1,6 +1,6 @@
 # The sub-pipeline works on the curatedMetagenomicData3 data repository
 # The objective of the sub-pipeline is to perform an integrated association analysis of microbiome features with the different microbiome features with the different 
-# diseases in the He et al dataset
+# diseases in the curatedMetagenomicData3 dataset
 # The features are the 112 Highly Detected Species (across the seven data repositories) (listed in Figure 2) and scanned here in from the workspace 
 # taxa_groupings_new.RData; the four microbiome uniqueness measures, shannon diversity, the range scaled abundances of the Kendall-Positive (Disease-Enriched) G2, 
 # Kendall-Negative (Health-Enriched) G1, Kendall-Not-Associated species groups; the Multiple-Disease-Enriched and Multiple-Disease-Depleted taxa identified in Ghosh

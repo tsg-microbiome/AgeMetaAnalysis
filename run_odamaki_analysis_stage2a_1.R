@@ -1,3 +1,13 @@
+# The sub-pipeline works on the Odamaki data repository and performs the following tasks:
+# Computes the sample-to-sample and taxa-to-taxa correlations between the clr-transformed abundances and the relative abundances of the different taxa at the species and genus level for the gut microbiomes of this dataset
+# Identifies a set of Highly Detected Species within this dataset.
+# Computes the association between the clr transformed abundances of this set of Highly Detected Species 
+# and the different microbiome summary statistic measures (four measures of uniqueness along with Shannon Diversity) using Robust Linear Regression models
+
+# The sub-pipeline requires the workspace odamaki_stage1_results.RData which is the output of the previous two sub-pipelines run_odamaki_analysis_stage1a.R, followed by
+# run_odamaki_analysis_stage1b.R, along with the odamaki_analysis_2021_Revision.RData which is the running workspace of the logmpie dataset analysis (after the execution
+# of run_odamaki_analysis_stage1a.R and run_odamaki_analysis_stage1b.R)
+
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\Odamaki\\odamaki_age_analysis.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\odamaki_stage1_results.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\Odamaki\\odamaki_Analysis_2021_Revision.RData")

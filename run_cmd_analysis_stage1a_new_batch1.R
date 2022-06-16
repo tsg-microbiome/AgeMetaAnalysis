@@ -2,6 +2,7 @@
 # It computes Shannon Diversity and the four different taxonomic uniqueness at the Species and Genus levels across all gut microbiomes
 # The output is a single data frame with the select metadata and the diversity and uniqueness measures for all gut microbiomes
 # The data frame covers only those studies in the curatedMetagenomicData3 repository in Table 1A
+# The uniqueness measures are computed separately for each study cohort within curatedMetagenomicData3
 
 rm(list=ls())
 

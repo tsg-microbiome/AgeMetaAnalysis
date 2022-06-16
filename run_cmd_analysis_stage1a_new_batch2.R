@@ -1,6 +1,6 @@
 # The sub-pipeline works on the curatedMetagenomicData3 data repository and performs two major tasks:
 # First, it computes Shannon Diversity and the four different taxonomic uniqueness at the Species and Genus levels across all gut microbiomes in curatedMetagenomicData3 that are used for the disease-microbiome studies. The output is a single data frame with the select metadata and the diversity and uniqueness measures for all gut microbiomes. The data frame covers those studies in the curatedMetagenomicData3 repository both in Table 1A and Table 1B. The uniqueness measures are computed separately for each study cohort within curatedMetagenomicData3.
-# Second, it collates the Metacyc-annotated pathway and metadata tables for the studies in the curatedMetagenomicData3 repository. It also omputes Shannon Diversity and the four different taxonomic uniqueness at the Pathway levels across all gut microbiomes. The output is a single data frame with the select metadata and the diversity and uniqueness measures for all gut microbiomes.
+# Second, it collates the Metacyc-annotated pathway and metadata tables for the studies in the curatedMetagenomicData3 repository. It also omputes Shannon Diversity and the four different taxonomic uniqueness at the Pathway levels across all gut microbiomes. The output is a single data frame with the select metadata and the diversity and uniqueness measures for all gut microbiomes. The uniqueness measures are computed separately for each study cohort within curatedMetagenomicData3.
 
 rm(list=ls())
 

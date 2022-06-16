@@ -1,3 +1,10 @@
+# The sub-pipeline works on the disease information corresponding to the subjects in the curatedMetagenomicData3 data repository and performs the following tasks:
+# Computes the number of patient gut microbiomes, the maximum and minimum age of the subjects corresponding to each disease
+# Computes the association of the relative abundances of the different Highly Detected Species and the different diseases
+# Subsequently specifically focusses on the disease associations of the Multiple Disease Enriched and Multiple Disease Depleted (previously identified
+# in Ghosh et al eLife, 2020)
+
+# The sub-pipeline utilizes the workspaces cmd3_disease_analysis.RData already provided in this github (containing gut microbiomes from studies in Table 1A and 1B) and cmd3_stage1_results.RData generated during the execution of run_cmd_analysis_stage1b.R code and the cmd3_stage2a_results.RData generated during the execution of run_cmd_analysis_stage2a_1.R. The workspace cmd3_analysis_2021_Revision.RData is a running workspace that is iteratively loaded and saved during the running of each American Gut analysis code. The detailed order of the running of each individual sub-pipeline is provided in the Readme file in the github corresponding to this study. The associations are computed on a per disease basis collating matched disease-control study cohorts corresponding to that disease.
 
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\CMD\\cmd3_disease_analysis.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\CMD\\cmd3_analysis_2021_Revision.RData")

@@ -1,3 +1,13 @@
+# The sub-pipeline works on the logmpie data repository and performs the following tasks:
+# Computes the sample-to-sample and taxa-to-taxa correlations between the clr-transformed abundances and the relative abundances of the different taxa at the species and genus level for the gut microbiomes of this dataset
+# Identifies a set of Highly Detected Species within this dataset.
+# Computes the association between the clr transformed abundances of this set of Highly Detected Species 
+# and the different microbiome summary statistic measures (four measures of uniqueness along with Shannon Diversity) using Robust Linear Regression models
+
+# The sub-pipeline requires the workspace logmpie_stage1_results.RData which is the output of the previous two sub-pipelines run_logmpie_analysis_stage1a.R, followed by
+# run_logmpie_analysis_stage1b.R, along with the logmpie_analysis_2021_Revision.RData which is the running workspace of the logmpie dataset analysis (after the execution
+# of run_logmpie_analysis_stage1a.R and run_logmpie_analysis_stage1b.R)
+
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\LogMPie\\logmpie_age_analysis.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\logmpie_stage1_results.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\LogMPie\\logmpie_Analysis_2021_Revision.RData")

@@ -53,4 +53,6 @@ Each code is annotated at the beginning. For each data repository, the running w
 
 5. NUAGE: The running workspace is nuage_analysis_2021_Revision.RData. The order of execution of the sub-pipelines along with intermediate outputs are: run_nuage_analysis_stage1a.R > run_nuage_analysis_stage1b.R (output produced: nuage_stage1_results.RData) > run_nuage_analysis_stage2a_1.R (output produced: nuage_stage2a_results.RData) > run_nuage_analysis_stage2b_1.R (output produced: nuage_stage2b_results.RData) > run_nuage_analysis_stage2c_1_new.R (output produced: nuage_stage_2c_results.RData)
 
+6. Odamaki: The running workspace is odamaki_Analysis_2021_Revision.RData. The order of execution of the sub-pipelines along with intermediate outputs are: run_odamaki_analysis_stage1a.R > run_odamaki_analysis_stage1b.R (output produced: odamaki_stage1_results.RData) > run_odamaki_analysis_stage2a_1.R (output produced: odamaki_stage2a_results.RData) > run_odamaki_analysis_stage2b_1.R (output produced: odamaki_stage2b_results.RData)
+
 Please contact tarini.ghosh@ucc.ie for details.

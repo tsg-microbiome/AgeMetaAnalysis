@@ -1,3 +1,7 @@
+#The sub-pipeline creates the processed dataframes for the disease-microbiome studies for the studies in the curatedMetagenomicData3 (CMD) repository.
+#The sub-pipeline generates three data frames pertaining to the studies in the CMD studies in Table 1A and 1B.
+#The three data frames are: cmd3_select_disease_final_species (containing the species profile), cmd3_select_disease_final_genus (containing the genus profile) and cmd3_select_disease_metadata (containing the metadata variables)
+
 load("C:\\Projects\\curatedMetagenomicData\\curatedMetagenomicData3\\cmd3.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\CMD\\QinJ_Table.RData")
 cmd3_select_metadata[rownames(QinJ_Table),"age"] <- QinJ_Table[rownames(QinJ_Table),"age"]

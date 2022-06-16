@@ -7,7 +7,7 @@
 # of run_nuage_analysis_stage1b.R code (which in turn is executed after the run_nuage_stage1a.R code) and the nuage_stage2a_results.RData generated during the execution of 
 # run_nuage_analysis_stage2a_1.R
 # The workspace nuage_analysis_2021_Revision.RData is a running workspace that is iteratively loaded and saved during the running of each of the previous 
-# He et al analysis code (run_nuage_analysis_stage1a.R followed by run_nuage_analysis_stage1b.R followed by run_nuage_stage2a_1.R followed by 
+# NUAGE analysis code (run_nuage_analysis_stage1a.R followed by run_nuage_analysis_stage1b.R followed by run_nuage_stage2a_1.R followed by 
 # The detailed order of the running of each individual sub-pipeline is provided in the Readme file in the github corresponding to this study.
 
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\NUAGE\\nuage_age_analysis.RData")

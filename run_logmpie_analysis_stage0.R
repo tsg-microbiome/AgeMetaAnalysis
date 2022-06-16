@@ -1,3 +1,6 @@
+#This is the first sub-pipeline for the logmpie Data repository.
+#The sub-pipeline processes the raw species, genus and metadata profiles of the logmpie data repository and generates and saves the processed species profile (logmpie_select_age_final_species), processed genus profile (logmpie_select_age_final_genus) and the processed metadata (logmpie_select_age_final_metadata) into the workspace logmpie_age_analysis.RData
+
 logmpie_species <- read.table("C:\\Projects\\ELDERMET\\NatureAgingRevision\\LogMPie\\logmpie_species.txt",sep="\t",row.names=1,header=TRUE)
 logmpie_genus <- read.table("C:\\Projects\\ELDERMET\\NatureAgingRevision\\LogMPie\\logmpie_genus.txt",sep="\t",row.names=1,header=TRUE)
 logmpie_metadata <- read.table("C:\\Projects\\ELDERMET\\NatureAgingRevision\\LogMPie\\logmpie_metadata.txt",sep="\t",row.names=1,header=TRUE)

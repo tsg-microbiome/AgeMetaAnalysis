@@ -1,3 +1,8 @@
+# This sub-pipeline works on the logmpie dataset and computes the following:
+# Associations between Shannon Diversity and the four different measures of Uniqueness at the Species and Genus level.
+# Associations between gut microbiome beta-diversity (computed using the four different distance measures; the same ones corresponding to the four measures of uniqueness) and age.
+# Associations between the different measures of uniqueness (four measures of uniqueness each corresponding to the species and genus levels) and Shannon Diversity with age.
+
 library(MASS)
 library(sfsmisc)
 library(gplots)

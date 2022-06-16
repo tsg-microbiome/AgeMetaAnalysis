@@ -1,3 +1,4 @@
+#This sub-pipeline adds the range scaled abundances of the different species groups to the species profiles of the logmpie data repository.
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\LogMPie\\logmpie_age_analysis.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\logmpie_stage1_results.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\logmpie_stage2a_results.RData")

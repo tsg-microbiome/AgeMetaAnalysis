@@ -1,3 +1,7 @@
+# The sub-pipeline scans/inputs the species, genus and metadata tables for the studies included in the age-microbiome analyses for the curatedMetagenomicData3 data repository.
+# It computes Shannon Diversity and the four different taxonomic uniqueness at the Species and Genus levels across all gut microbiomes
+# The output is a single data frame with the select metadata and the diversity and uniqueness measures for all gut microbiomes
+# The data frame covers only those studies in the curatedMetagenomicData3 repository in Table 1A
 
 rm(list=ls())
 

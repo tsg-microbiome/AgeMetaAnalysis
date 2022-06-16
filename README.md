@@ -49,5 +49,8 @@ Each code is annotated at the beginning. For each data repository, the running w
 
 3. Irish Shotgun Cohorts (ISC): The running workspace is isc_analysis_2021_Revision.RData. The order of execution of the sub-pipelines along with intermediate outputs are: run_isc_analysis_stage1a.R > run_isc_analysis_pathway_stage0.R (output produced: isc_stage1_pathway_results.RData) > run_isc_analysis_stage1b.R (output produced: isc_stage1_results.RData) > run_isc_analysis_stage2a_1.R (output produced: isc_stage2a_results.RData) > run_isc_analysis_stage2b_1.R (output produced: isc_stage2b_results.RData) > run_isc_analysis_stage2c_1_new.R (output produced: isc_stage_2c_results.RData)
 
+4. LogMPie: The running workspace is logmpie_analysis_2021_Revision.RData. The order of execution of the sub-pipelines along with intermediate outputs are: run_logmpie_analysis_stage0.R > run_logmpie_analysis_stage1a.R > run_logmpie_analysis_stage1b.R (output produced: isc_stage1_results.RData) > run_logmpie_analysis_stage2a_1.R (output produced: logmpie_stage2a_results.RData) > run_logmpie_analysis_stage2b_1.R (output produced: logmpie_stage2b_results.RData)
+
+5. 
 
 Please contact tarini.ghosh@ucc.ie for details.

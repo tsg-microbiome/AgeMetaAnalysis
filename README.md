@@ -51,6 +51,6 @@ Each code is annotated at the beginning. For each data repository, the running w
 
 4. LogMPie: The running workspace is logmpie_analysis_2021_Revision.RData. The order of execution of the sub-pipelines along with intermediate outputs are: run_logmpie_analysis_stage0.R > run_logmpie_analysis_stage1a.R > run_logmpie_analysis_stage1b.R (output produced: isc_stage1_results.RData) > run_logmpie_analysis_stage2a_1.R (output produced: logmpie_stage2a_results.RData) > run_logmpie_analysis_stage2b_1.R (output produced: logmpie_stage2b_results.RData)
 
-5. 
+5. NUAGE: The running workspace is nuage_analysis_2021_Revision.RData. The order of execution of the sub-pipelines along with intermediate outputs are: run_nuage_analysis_stage1a.R > run_nuage_analysis_stage1b.R (output produced: nuage_stage1_results.RData) > run_nuage_analysis_stage2a_1.R (output produced: nuage_stage2a_results.RData) > run_nuage_analysis_stage2b_1.R (output produced: nuage_stage2b_results.RData) > run_nuage_analysis_stage2c_1_new.R (output produced: nuage_stage_2c_results.RData)
 
 Please contact tarini.ghosh@ucc.ie for details.

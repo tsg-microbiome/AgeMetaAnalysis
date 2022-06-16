@@ -1,3 +1,10 @@
+# The sub-pipeline works on the curatedMetagenomicData3 repository and performs the following tasks:
+# Computes the sample-to-sample and taxa-to-taxa correlations between the clr-transformed abundances and the relative abundances of the different taxa at the species and genus level for the gut microbiomes of this dataset
+# Identifies a set of Highly Detected Species based on their detection pattern within studies belonging to this dataset.
+# Computes the association between the clr transformed abundances of this set of Highly Detected Species 
+# and the different microbiome summary statistic measures (four measures of uniqueness along with Shannon Diversity) using Robust Linear Regression models
+# The associations are computed on a per-studies basis.
+
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\CMD\\cmd3_disease_analysis.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\cmd3_stage1_results.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\CMD\\cmd3_analysis_2021_Revision.RData")

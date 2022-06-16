@@ -1,3 +1,4 @@
+#This sub-pipeline adds the range scaled abundances of the different species groups to the species profiles of the Odamaki data repository.
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\Odamaki\\odamaki_age_analysis.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\odamaki_stage1_results.RData")
 load("C:\\Projects\\ELDERMET\\NatureAgingRevision\\odamaki_stage2a_results.RData")

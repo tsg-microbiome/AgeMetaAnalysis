@@ -57,4 +57,6 @@ Each code is annotated at the beginning. For each data repository, the running w
 
 7. curatedMetagenomicData3: The running workspace is cmd3_analysis_2021_Revision.RData. The order of execution of the sub-pipelines along with intermediate outputs are: run_cmd_analysis_stage2o.R > run_cmd_analysis_stage1a_new_batch1.R < run_cmd_analysis_stage1a_new_batch2.R < run_cmd_analysis_stage1b.R (output produced: cmd3_stage1_results.RData) > run_cmd_analysis_stage2a_1.R (output produced: cmd3_stage2a_results.RData) > run_cmd_analysis_stage2b_1.R (output produced: cmd3_stage2b_results.RData) > run_cmd_analysis_stage2c_1_new.R (output produced: cmd3_stage_2c_results.RData)
 
+The codes pertaining to the combined analysis for all the seven data repositories are also provided and start with combined_
+
 Please contact tarini.ghosh@ucc.ie for details.
